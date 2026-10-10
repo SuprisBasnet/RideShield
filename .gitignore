@@ -1,0 +1,24 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Local SQLite state (the app creates and seeds this on startup)
+rideshield.db
+rideshield.db-shm
+rideshield.db-wal
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
